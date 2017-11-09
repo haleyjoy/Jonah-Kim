@@ -1,0 +1,136 @@
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Test</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/test.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.ico">
+    
+
+</head>
+<body>
+    <a href="#"><p id="first-icon" class="icon-control" data-target="skill-about">2017</p></a>    
+    <a href="#"><p id="second-icon" class="icon-control" data-target="skill-education">2018</p></a>
+<br><br>
+<div id="skill-about" class="paragraph">
+                    <div class = "one-half">
+                    <p>December 8-10, 2017<br>
+Christmas Concert<br>
+Twin Lakes Church<br>
+Santa Cruz, CA<br><br><br>
+
+​December 2 & 3, 2017<br>
+Clair de Lune: Verklärte Nacht<br>
+​Hidden Valley Theater<br>
+Carmel Valley, CA<br><br><br>
+
+November 11, 2017*<br>
+NAMI Gala Concert<br>
+Santa Cruz, CA<br><br><br>
+
+November 4, 2017<br>
+St. Andrew's 40th Anniversary Concert<br>
+Dallas, TX<br><br><br>
+
+September 26, 2017<br>
+Solo Bach at Old St. Mary's<br>
+San Francisco, CA<br><br><br>
+
+August 10-13, 2017<br>
+Celtic to Classical Festival<br>
+Rehoboth Beach, DE<br><br><br>
+
+July 16-30, 2017<br>
+Festival Mozaic<br>
+San Luis Obispo, CA<br><br><br>
+
+July 15, 2017<br>
+Basically Beethoven Festival<br>
+Dallas, TX<br><br><br>
+
+June 26- July 14, 2017<br>
+Interlochen Center for the Arts<br><br><br>
+
+​
+*postponed until further notice</p></div>
+</div>
+
+<div id="skill-education" class="paragraph">
+                    <div class = "one-half">
+                    <p>January 21, 2018
+Alliance Français Recital
+Jarvis Center, Napa, CA
+
+January 26-28, 2018
+Dvorak Concerto & Kol Nidrei at Tivoli Reserve
+​Palm Beach, FL
+
+February 4, 2018
+Ensemble SF
+San Francisco, CA
+
+February 25, 2018
+Wintermezzo at Festival Mozaic
+San Luis Obispo, CA
+
+February 27, 2018
+Old St. Mary's
+San Francisco, CA
+
+March 4, 2018
+Brahms & Schumann Recital
+Samper Hall, Santa Cruz, CA
+
+April 22, 2018
+Ensemble SF
+San Francisco, CA
+
+May 21-27, 2018
+Music in May
+Santa Cruz, CA
+
+June 3, 2018
+Blanco Performing Arts
+with Sean Kennard, piano
+
+​July 16-29, 2018
+Festival Mozaic
+​San Luis Obispo, CA</p></div></div>
+ 
+
+
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+    $('.icon-control').click(function(){
+	$('.icon-control').removeClass('active');
+	$(this).toggleClass('active');
+  var selector = '#' + $(this).data('target');
+  $('.paragraph').hide();
+  $(selector).toggle();
+});
+
+$('#first-icon').click();</script>
+    </body></html>
+

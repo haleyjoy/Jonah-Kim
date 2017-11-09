@@ -1,0 +1,118 @@
+.paragraph {
+  display: none;
+}
+#skill-item {
+  display: block;
+}
+#skill-item:target {
+  display: block;
+}
+.icon-control {
+  display: inline;
+     font-weight: 100;
+    color: darkgrey;
+    text-decoration: none;
+}
+.icon-control.active {
+    font-weight: 700;
+    color: black;
+      text-decoration: none;
+}
+.indextext {
+    padding-left: 25%;
+    top:75px;
+    position: absolute;
+
+}
+h1 {
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-size: 50px;
+    position: absolute;
+    font-size:450%;
+    line-height: 1.65;
+    width: 140%;
+    
+    
+}
+ul {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: left;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-size: 10px;
+    position: absolute;
+    width: 65%;
+    font-size:180%;
+    line-height: 1.95;
+    top: 135px;
+
+}
+.littlebox {
+    width: 250px;
+    height: 2px;
+   /* Rectangle: */
+/* Rectangle: */
+background-image: linear-gradient(-90deg, rgba(0,0,0,0.00) 9%, #ABABAB 50%, rgba(0,0,0,0.00) 88%);
+    position: absolute;
+    top: 105px;
+}
+
+body, html {
+    height: 100%;
+}
+
+.bg { 
+  
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-size: 100%;
+    background-color: black;
+}
+.img2 {
+ width: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 77px;
+}
+@media only screen and (max-width: 400px) {
+body { font-size:80%;}
+    h1 {
+        padding-left: 20px;
+    }
+
+}
+@media only screen and (max-width: 700px) {
+body { font-size:90%;
+    } 
+    h1 {
+        padding-left: 0px;
+    }
+    ul {
+        top: 75px;
+    }
+    .littlebox {
+        top: 65px;
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .img2 {
+        width: 130%;
+        left: 1px;
+    }
+    h1 {
+        left: 40px;
+    }
+    ul {
+        left: 40px;
+    }
+    .littlebox {
+        left: 40px;
+    }
+}
